@@ -2,9 +2,13 @@
 1. Развернул в корп клауде на деве
 
 2. postgres=# create database thai;
+   
    CREATE DATABASE
+
    postgres=#
+
    \q
+
    postgres@xenos-pg-test:/tmp$ psql < /tmp/dl/thai.sql 
 
 4. postgres=# \\c thai 

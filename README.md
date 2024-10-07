@@ -2,12 +2,12 @@
 1. Развернул в корп клауде на деве
 
 2. postgres=# create database thai;
-CREATE DATABASE
-postgres=#
-\q
-postgres@xenos-pg-test:/tmp$ psql < /tmp/dl/thai.sql 
+   CREATE DATABASE
+   postgres=#
+   \q
+   postgres@xenos-pg-test:/tmp$ psql < /tmp/dl/thai.sql 
 
-3. postgres=# \\c thai 
+4. postgres=# \\c thai 
 
 You are now connected to database "thai" as user "postgres".
 
